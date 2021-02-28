@@ -1,0 +1,24 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "A command line application to view and manage the departments, roles, and employees in a company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscottrumptz/employee-tracker.git"
+  },
+  "author": "J. Scott Rumptz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscottrumptz/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/jscottrumptz/employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.0.0",
+    "mysql2": "^2.2.5"
+  }
+}
