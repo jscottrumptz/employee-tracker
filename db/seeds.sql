@@ -20,7 +20,7 @@ VALUES
     ('Accounting Manager', 50000, 3), -- 9
     ('Graphic Artist', 40000, 4), -- 10
     ('Shipping Manager', 50000, 6), -- 11
-    ('Warehouse Woker', 30000, 6), -- 12
+    ('Warehouse Worker', 30000, 6), -- 12
     ('Systems Administrator', 60000, 5); -- 13
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
@@ -38,6 +38,6 @@ VALUES
     ('Linda', 'Pense', 8, 9), -- 11
     ('Rachel', 'Tickle', 7, 9), -- 12
     ('Max', 'Tresky', 10, 1), -- 13
-    ('John', 'Holland', 6, 11), -- 14
-    ('Edward', 'Goike', 6, 11), -- 15
+    ('John', 'Holland', 12, 11), -- 14
+    ('Edward', 'Goike', 12, 11), -- 15
     ('Clyde', 'Bailing', 13, 1); -- 16
