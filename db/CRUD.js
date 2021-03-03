@@ -8,7 +8,7 @@ class CRUD {
       LEFT JOIN employee manager on manager.id = employee.manager_id;` 
     }
 
-    // works, but throws an error on exit of the application
+    // not needed in this application but keeping it for reference
     get findDepartmentTotals() {
       return `SELECT department.name AS department, SUM(role.salary) as department_budgets
       FROM employee 
