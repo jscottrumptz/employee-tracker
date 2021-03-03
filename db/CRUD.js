@@ -7,6 +7,15 @@ class CRUD {
       LEFT JOIN department on role.department_id = department.id 
       LEFT JOIN employee manager on manager.id = employee.manager_id;` 
     }
+
+    // works, but throws an error on exit of the application
+    get findDepartmentTotals() {
+      return `SELECT department.name AS department, SUM(role.salary) as department_budgets
+      FROM employee 
+      LEFT JOIN role on employee.role_id = role.id 
+      LEFT JOIN department on role.department_id = department.id
+      GROUP BY department ORDER BY department_budgets DESC;`
+    }
   
     get findDepartments() {
       return "SELECT * FROM department;"
