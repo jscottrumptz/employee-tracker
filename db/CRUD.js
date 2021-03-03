@@ -43,8 +43,16 @@ class CRUD {
       return "UPDATE employee SET role_id = ? WHERE id = ?" // [roleId, employeeId]
     }
   
+    get removeDepartment() {
+      return "DELETE FROM department WHERE id = ?" // id
+    }
+
     get removeRole() {
       return "DELETE FROM role WHERE id = ?" // id
+    }
+
+    get removeEmployee() {
+      return "DELETE FROM employee WHERE id = ?" // id
     }
     
     get title () {
