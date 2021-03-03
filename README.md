@@ -31,6 +31,8 @@ Command line application for managing employees
 
 ---
 ## Usage 
+[https://youtu.be/nvkn57tU8_s](https://youtu.be/nvkn57tU8_s?target=_blank) link to the [instructional video](https://youtu.be/nvkn57tU8_s?target=_blank)
+    
 
     
 ![screenshot](https://user-images.githubusercontent.com/74981245/109875735-705aa900-7c36-11eb-88a2-b41013a2e5c3.png)
